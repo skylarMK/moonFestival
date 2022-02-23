@@ -1,0 +1,48 @@
+.timer {
+    animation: timer 1s ease;
+}
+
+.timer.running {
+    animation-play-state: running;
+}
+
+.timer.paused {
+    animation-play-state: paused;
+}
+
+.timer.iteration-3 {
+    animation-iteration-count: 3;
+}
+
+.timer.iteration-4 {
+    animation-iteration-count: 4;
+}
+
+.timer.iteration-5 {
+    animation-iteration-count: 5;
+}
+
+.timer.iteration-10 {
+    animation-iteration-count: 10;
+}
+
+.timer.iteration-60 {
+    animation-iteration-count: 60;
+}
+
+.timer.iteration-65 {
+    animation-iteration-count: 65;
+}
+
+@keyframes timer {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
